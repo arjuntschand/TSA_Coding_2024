@@ -28,22 +28,22 @@ class MoreInfoVC: UIViewController {
     }
     */
 
-    @IBAction func donateFoodButton(_ sender: Any) {if let url = URL(string: "https://www.humanerescuealliance.org/petpantry") {
+    @IBAction func donateFoodButton(_ sender: Any) {if let url = URL(string: "https://barclaysquareprinceton.com/blog/30-fun-facts-about-new-jersey/") {
         let vc = SFSafariViewController(url: url)
         present(vc, animated: true)
     }}
     @IBAction func donateClothesButton(_ sender: Any) {
-        if let url = URL(string: "https://www.kyhumane.org/ways-to-give/wishlist/") {
+        if let url = URL(string: "https://www.nj.gov/nj/about/history/short_history.html") {
         let vc = SFSafariViewController(url: url)
         present(vc, animated: true)
         }}
     @IBAction func volunteerButton(_ sender: Any) {
-        if let url = URL(string: "https://www.kyhumane.org/get-involved/volunteer/") {
+        if let url = URL(string: "https://www.travelandleisure.com/new-jersey-travel-8552239") {
         let vc = SFSafariViewController(url: url)
         present(vc, animated: true)
         }}
     @IBAction func petHealthButton(_ sender: Any) {
-        if let url = URL(string: "https://www.avma.org/resources/pet-owners/petcare/7-things-you-can-do-keep-your-pet-healthy") {
+        if let url = URL(string: "https://davisic.princeton.edu/climate-and-clothing") {
         let vc = SFSafariViewController(url: url)
         present(vc, animated: true)
     }

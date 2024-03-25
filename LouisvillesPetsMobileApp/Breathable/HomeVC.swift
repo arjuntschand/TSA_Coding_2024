@@ -25,5 +25,10 @@ class AboutUsVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+   
+    
+    @IBAction func clickButton(_ sender: Any) {
+        self.tabBarController?.selectedIndex=1
+    }
 
 }

@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC32CDE129D0F2CD00049D1D /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CDE029D0F2CD00049D1D /* AboutUsVC.swift */; };
-		DC32CDE329D0F2F900049D1D /* MatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CDE229D0F2F900049D1D /* MatchVC.swift */; };
-		DC32CDE529D0F36200049D1D /* FosterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CDE429D0F36200049D1D /* FosterVC.swift */; };
-		DC32CDE729D0F37900049D1D /* DonateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CDE629D0F37900049D1D /* DonateVC.swift */; };
+		DC32CDE129D0F2CD00049D1D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CDE029D0F2CD00049D1D /* HomeVC.swift */; };
+		DC32CDE329D0F2F900049D1D /* ActivitiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CDE229D0F2F900049D1D /* ActivitiesVC.swift */; };
+		DC32CDE529D0F36200049D1D /* DiningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CDE429D0F36200049D1D /* DiningVC.swift */; };
+		DC32CDE729D0F37900049D1D /* LodgingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CDE629D0F37900049D1D /* LodgingVC.swift */; };
 		DC32CDE929D0F38700049D1D /* MoreInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CDE829D0F38700049D1D /* MoreInfoVC.swift */; };
 		DC55D26129A40A290068996B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC55D26029A40A290068996B /* Media.xcassets */; };
 		DC6EE04C27138DB1008DF188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6EE04B27138DB1008DF188 /* AppDelegate.swift */; };
@@ -22,10 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC32CDE029D0F2CD00049D1D /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
-		DC32CDE229D0F2F900049D1D /* MatchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchVC.swift; sourceTree = "<group>"; };
-		DC32CDE429D0F36200049D1D /* FosterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FosterVC.swift; sourceTree = "<group>"; };
-		DC32CDE629D0F37900049D1D /* DonateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateVC.swift; sourceTree = "<group>"; };
+		DC32CDE029D0F2CD00049D1D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		DC32CDE229D0F2F900049D1D /* ActivitiesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesVC.swift; sourceTree = "<group>"; };
+		DC32CDE429D0F36200049D1D /* DiningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningVC.swift; sourceTree = "<group>"; };
+		DC32CDE629D0F37900049D1D /* LodgingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodgingVC.swift; sourceTree = "<group>"; };
 		DC32CDE829D0F38700049D1D /* MoreInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoVC.swift; sourceTree = "<group>"; };
 		DC55D26029A40A290068996B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Breathable/Media.xcassets; sourceTree = "<group>"; };
 		DC6EE04827138DB1008DF188 /* Jersey Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jersey Love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,10 +76,10 @@
 				DC6EE05427138DB2008DF188 /* Assets.xcassets */,
 				DC6EE05627138DB2008DF188 /* LaunchScreen.storyboard */,
 				DC6EE05927138DB2008DF188 /* Info.plist */,
-				DC32CDE029D0F2CD00049D1D /* AboutUsVC.swift */,
-				DC32CDE229D0F2F900049D1D /* MatchVC.swift */,
-				DC32CDE429D0F36200049D1D /* FosterVC.swift */,
-				DC32CDE629D0F37900049D1D /* DonateVC.swift */,
+				DC32CDE029D0F2CD00049D1D /* HomeVC.swift */,
+				DC32CDE229D0F2F900049D1D /* ActivitiesVC.swift */,
+				DC32CDE429D0F36200049D1D /* DiningVC.swift */,
+				DC32CDE629D0F37900049D1D /* LodgingVC.swift */,
 				DC32CDE829D0F38700049D1D /* MoreInfoVC.swift */,
 			);
 			path = Breathable;
@@ -161,10 +161,10 @@
 				DC32CDE929D0F38700049D1D /* MoreInfoVC.swift in Sources */,
 				DC6EE04C27138DB1008DF188 /* AppDelegate.swift in Sources */,
 				DC6EE04E27138DB1008DF188 /* SceneDelegate.swift in Sources */,
-				DC32CDE729D0F37900049D1D /* DonateVC.swift in Sources */,
-				DC32CDE129D0F2CD00049D1D /* AboutUsVC.swift in Sources */,
-				DC32CDE529D0F36200049D1D /* FosterVC.swift in Sources */,
-				DC32CDE329D0F2F900049D1D /* MatchVC.swift in Sources */,
+				DC32CDE729D0F37900049D1D /* LodgingVC.swift in Sources */,
+				DC32CDE129D0F2CD00049D1D /* HomeVC.swift in Sources */,
+				DC32CDE529D0F36200049D1D /* DiningVC.swift in Sources */,
+				DC32CDE329D0F2F900049D1D /* ActivitiesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
