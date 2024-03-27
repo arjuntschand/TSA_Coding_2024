@@ -8,7 +8,7 @@ class MatchVC: UIViewController {
     var returnStr:String = ""
     
     // Set IP address used to connect to the server
-    var ip_address:String = "192.168.86.44"
+    var ip_address:String = "192.168.1.4"
     
     override func viewDidLoad() {
         super.viewDidLoad()
