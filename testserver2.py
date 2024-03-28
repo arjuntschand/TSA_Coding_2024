@@ -259,6 +259,6 @@ def reset_database():
 
 if __name__ == '__main__':
     # run app in debug mode on port 5000
-    app.run(debug=False, host="192.168.1.4", port=5000)
+    app.run(debug=False, host="10.46.68.171", port=5000)
 
 request
